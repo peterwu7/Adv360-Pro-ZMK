@@ -2,7 +2,7 @@ macro_chrome_tab_bkw: macro_chrome_tab_bkw{
 compatible = "zmk,behavior-macro";
 label = "macro_chrome_tab_bkw";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk TAB>, <&kp LSHIFT>;
+bindings = <&sk LCTRL>, <&kp PAGE_DOWN>;
 };
 macro_chrome_tab_forw: macro_chrome_tab_forw{
 compatible = "zmk,behavior-macro";
